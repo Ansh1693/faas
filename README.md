@@ -16,6 +16,7 @@ FaaS is a local, self-hosted AWS Lambda clone built with Go and Docker. It runs 
 - [Runtime Support](#runtime-support)
 - [Configuration](#configuration)
 - [Documentation](#documentation)
+- [Plan ahead](#plan-ahead)
 - [AWS Lambda Comparison](#aws-lambda-comparison)
 - [Alternatives Comparison](#alternatives-comparison)
 - [Contributing](#contributing)
@@ -165,6 +166,16 @@ Full configuration: [docs/configuration.md](./docs/configuration.md)
 - [Examples](./docs/examples.md)
 - [Testing](./docs/testing.md)
 - [Lambda Compatibility](./docs/lambda-compatibility.md)
+
+## Plan ahead
+
+Possible next extensions for FaaS:
+
+- Function versioning + aliases (blue/green rollouts and rollback).
+- Provisioned concurrency and explicit per-function reservations.
+- Runtime layers for shared dependencies and faster builds.
+- Custom runtime contract for non-Node languages via user-provided Docker images.
+- End-to-end tracing across EvtQ trigger to function invocation/logs.
 
 ## AWS Lambda Comparison
 
