@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="FaaS logo placeholder">
+  <rect width="640" height="180" fill="#0b1220"/>
+  <rect x="16" y="16" width="608" height="148" rx="10" fill="#111a2e" stroke="#2a3b62"/>
+  <text x="40" y="96" fill="#7dd3fc" font-family="monospace" font-size="42" font-weight="700">FaaS</text>
+  <text x="180" y="96" fill="#cbd5e1" font-family="monospace" font-size="20">Run serverless functions locally</text>
+</svg>
